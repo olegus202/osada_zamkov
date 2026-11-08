@@ -1,0 +1,12 @@
+{
+  "name": "castle-siege-duel",
+  "version": "1.0.0",
+  "description": "Осада Замков - PvP-стратегия для LAN-турнира (HoMM-стиль)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

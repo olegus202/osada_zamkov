@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Осада Замков</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="topbar">
+    <div class="side" id="sideA">
+      <span class="dot dotA"></span><span class="pname" id="nameA">—</span>
+      <div class="hpbar"><div id="hpA"></div></div>
+      <span class="units" id="cntA">0</span>
+    </div>
+    <div id="center">
+      <span id="time">30:00</span>
+      <span id="gold">200</span>
+      <span id="income">+1/сек</span>
+    </div>
+    <div class="side right" id="sideB">
+      <span class="units" id="cntB">0</span>
+      <div class="hpbar"><div id="hpB"></div></div>
+      <span class="pname" id="nameB">—</span><span class="dot dotB"></span>
+    </div>
+  </div>
+  <div id="stagewrap">
+    <canvas id="game" width="936" height="576"></canvas>
+    <div id="overlay" class="hidden"></div>
+  </div>
+  <div id="panel"></div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
